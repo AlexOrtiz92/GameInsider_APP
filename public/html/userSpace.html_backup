@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameInsiders</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="userSpace.css">
+  <script defer src="bundle.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navbar 1 -->
+  <nav class="nav1">
+    <div class="nav2">
+      <img src="images/joypad.svg" alt="" width="60" class="logo" />
+      <h1 id="title">Game Insiders</h1>
+    </div>
+    <div class="nav3">
+      <div class="button">
+        <button class="navButton">Mis Juegos</button>
+      </div>
+      <div class="button">
+        <button class="navButton">Mis capturas</button>
+      </div>
+      <div class="button">
+        <button class="navButton">All Games</button>
+      </div>
+      <div class="buttonEnd">
+        <button class="endSession"><img src="../images/apagar.svg" alt="" width="50px"></button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Futuro -->
+  <section class="section">
+    <div class="bigCont">
+      <div class="container">
+        <p class="label">Mis planes</p>
+        <div class="slidesCont">
+
+          <div class="leftArrow">
+            <button class="left"><img src="../images/next.svg" alt="" width="40"></button>
+          </div>
+
+          <div class="future_list">
+            <div class="gamebox">
+              <img class="future-img"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202102/0418/cfbTDvs2m1P9mArX74ClI9HR.png?w=180&thumb=false"
+                alt="Biomutant" title="">
+              <div class="p">
+                <span>Biomutant</span>
+              </div>
+            </div>
+            <div class="gamebox">
+              <img class="future-img"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202102/0418/cfbTDvs2m1P9mArX74ClI9HR.png?w=180&thumb=false"
+                alt="Biomutant" title="">
+              <div class="p">
+                <span>Biomutant</span>
+              </div>
+            </div>
+            <div class="gamebox">
+              <img class="future-img"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202102/0418/cfbTDvs2m1P9mArX74ClI9HR.png?w=180&thumb=false"
+                alt="Biomutant" title="">
+              <div class="p">
+                <span>Biomutant</span>
+              </div>
+            </div>
+          </div>
+          <div class="rightArrow">
+            <button class="right"><img src="../images/next.svg" alt="" width="40"></button>
+          </div>
+
+        </div>
+      </div>
+      <div class="add-del">
+        <button class="add">
+          <span class="sign">+</span>
+        </button>
+        <button class="del">
+          <span class="sign">-</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Presente -->
+    <div class="bigCont">
+
+      <div class="container">
+        <p class="label"> Jugando...</p>
+        <div class="slidesCont">
+          <div class="leftArrow">
+            <button class="left"><img src="../images/next.svg" alt="" width="40"></button>
+          </div>
+
+          <div class="present_list">
+            <div class="gamebox">
+              <img class="present-img"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202102/0418/cfbTDvs2m1P9mArX74ClI9HR.png?w=180&thumb=false"
+                alt="Biomutant" title="">
+              <div class="p">
+                <span>Biomutant</span>
+              </div>
+            </div>
+            <div class="gamebox">
+              <img class="present-img"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202102/0418/cfbTDvs2m1P9mArX74ClI9HR.png?w=180&thumb=false"
+                alt="Biomutant" title="">
+              <div class="p">
+                <span>Biomutant</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="rightArrow">
+            <button class="right"><img src="../images/next.svg" alt="" width="40"></button>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="add-del">
+        <button class="add">
+          <span class="sign">+</span>
+        </button>
+        <button class="del">
+          <span class="sign">-</span>
+        </button>
+      </div>
+
+    </div>
+    <!-- Pasado -->
+    <div class="bigCont">
+
+      <div class="container">
+        <p class="label">Mis experiencias</p>
+        <div class="slidesCont">
+
+          <div class="leftArrow">
+            <button class="left"><img src="../images/next.svg" alt="" width="40"></button>
+          </div>
+
+          <div class="past_list">
+            <div class="gamebox">
+              <img class="past-img"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202102/0418/cfbTDvs2m1P9mArX74ClI9HR.png?w=180&thumb=false"
+                alt="Biomutant" title="">
+              <div class="p">
+                <span>Biomutant</span>
+              </div>
+            </div>
+            <div class="gamebox">
+              <img class="past-img"
+                src="https://image.api.playstation.com/vulcan/ap/rnd/202102/0418/cfbTDvs2m1P9mArX74ClI9HR.png?w=180&thumb=false"
+                alt="Biomutant" title="">
+              <div class="p">
+                <span>Biomutant</span>
+              </div>
+            </div>
+          </div>
+          <div class="rightArrow">
+            <button class="right"><img src="../images/next.svg" alt="" width="40"></button>
+          </div>
+
+        </div>
+      </div>
+      <div class="add-del">
+        <button class="add">
+          <span class="sign">+</span>
+        </button>
+        <button class="del">
+          <span class="sign">-</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

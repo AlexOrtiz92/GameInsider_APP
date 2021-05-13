@@ -1,0 +1,41 @@
+{
+  "name": "gameinsider_webservice",
+  "version": "1.0.0",
+  "description": "front-end of GameInsiders app",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexOrtiz92/GameInsider_WebService.git"
+  },
+  "author": "Alejandro Ortiz Ortega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexOrtiz92/GameInsider_WebService/issues"
+  },
+  "homepage": "https://github.com/AlexOrtiz92/GameInsider_WebService#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "jquery": "^3.6.0",
+    "lesshat": "^4.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "webpack-dev-middleware": "^4.1.0"
+  }
+}

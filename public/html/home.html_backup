@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameInsiders</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="home.css">
+  <script defer src="bundle.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="root"></div>
+  <!-- Navbar 1 -->
+  <!-- <nav class="nav1">
+    <div class="nav2">
+      <img src="images/joypad.svg" alt="" width="60" class="logo" />
+      <h1 id="title">Game Insiders</h1>
+    </div>
+    <div class="">
+      <button class="buttonLogin">Inicia Sesion</button>
+    </div>
+  </nav> -->
+
+
+
+
+  <!-- Login -->
+  <!-- <section>
+    <div class="section1">
+      <div class="loginBox">
+        <div class="empezar">
+          <p>Empezar!</p>
+        </div>
+        <div class="login">
+          <form class="form" action="">
+            <div class="contain"><input class="user" type="user" placeholder="user"></div>
+            <div class="contain"><input class="email" type="email" placeholder="email"></div>
+            <div class="contain"><input class="password" type="password" placeholder="password"></div>
+            <button class="buttonLog" type="button">Registrarse</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+  <!-- Navbar 2 -->
+  <!-- <nav class="nav1">
+    <div class="nav2">
+      <img src="images/joypad.svg" alt="" width="60" class="logo"></a>
+      <h1 id="title">Game Insiders</h1>
+    </div>
+  </nav> -->
+
+  <!-- SignIn -->
+  <!-- <section>
+    <div class="section1">
+      <div class="signinBox">
+        <div class="empezar">
+          <p>Iniciar Sesión</p>
+        </div>
+        <div class="signin">
+          <form class="form" action="">
+            <div class="contain"><input class="user" type="user" placeholder="user"></div>
+            <div class="contain"><input class="password" type="password" placeholder="password"></div>
+            <button class="buttonSign" type="button">Adelante!</button>
+            <small class="small">
+              <p>Todavia no tienes usuario?</p> <a href="">Crealo!</a>
+            </small>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Pie de pagina -->
+  <!-- <footer>
+    <div class="footer1"></div>
+    <div class="footer2"></div>
+  </footer> -->
+
+</body>
+
+</html>

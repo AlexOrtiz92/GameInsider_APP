@@ -1,0 +1,276 @@
+body {
+  background: linear-gradient(to right, #5677ee73, #ee565b94);
+  color: #214c71;
+  /* font-family: "Quantico", sans-serif; */
+  font-size: 16px;
+  /* font-family: "DotGothic16", sans-serif; */
+  font-family: "Press Start 2P", cursive;
+}
+
+p:focus,
+p:active,
+p:target,
+p:hover {
+  cursor: default;
+}
+
+h1:focus,
+h1:active,
+h1:active,
+h1:hover {
+  cursor: default;
+}
+/* NAV */
+
+.nav1 {
+  /* background: linear-gradient(to right, #5677ee73, #ee565b); */
+  background-color: rgba(255, 255, 255, 0.08);
+
+  color: #214c71;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 7rem;
+  width: 100%;
+  position: fixed;
+  padding-bottom: 1.5rem;
+  border-bottom: rgb(255, 255, 255, 0.2) solid 0.1rem;
+  z-index: 999;
+}
+
+#title {
+  font-family: "Press Start 2P", cursive;
+  margin: 0 auto;
+  -webkit-text-stroke: 0.1rem white;
+}
+
+.logo {
+  margin: auto 2rem;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.nav3 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.navButton {
+  background-color: rgb(255, 255, 255, 0);
+  width: 9rem;
+  height: 2.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 0.6rem;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+  border: rgb(255, 255, 255) solid 0.1rem;
+}
+.navButton:hover {
+  width: 9.5rem;
+  height: 3rem;
+  border: rgb(255, 255, 255) solid 0.2rem;
+  transition: 0.2s;
+}
+
+.endSession {
+  background-color: rgb(255, 255, 255, 0);
+  margin: auto 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.endSession img:hover {
+  width: 55px;
+  transition: 0.3s;
+}
+
+.button {
+  margin: auto 1rem;
+  width: 11rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.buttonEnd {
+  width: 9.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* SECTION */
+
+.section {
+  background-image: url("../images/spaceImage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top;
+  background-size: cover;
+  height: 70rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0rem;
+  padding: 0rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.slidesCont {
+  width: 100%;
+  height: 12rem;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: rgb(255, 255, 255, 0.4) solid 0.1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  color: rgb(255, 255, 255);
+  margin: auto auto auto 1rem;
+}
+.leftArrow {
+  height: 100%;
+  width: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  transform: rotate(180deg);
+  height: 45px;
+  border-radius: 50%;
+}
+.rightArrow {
+  height: 100%;
+  width: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.future_list,
+.present_list,
+.past_list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  padding: 0%;
+}
+
+.gamebox {
+  position: relative;
+  width: 227.148px;
+  height: 188.828px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.future-img,
+.present-img,
+.past-img {
+  margin: 1rem 0.2rem;
+  border: rgb(147, 201, 254, 1) solid 0.1rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  z-index: 99;
+}
+
+.future-img:hover,
+.present-img:hover,
+.past-img:hover {
+  filter: brightness(50%);
+  color: rgb(255, 255, 255, 1);
+  transform: translate(0px, -150px);
+  transition: 1s 0.1s;
+}
+
+.p {
+  position: absolute;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255, 1);
+  z-index: 9;
+}
+
+.bigCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem auto;
+  padding: 0rem;
+  width: 100%;
+  flex-direction: row;
+}
+.add-del {
+  height: 70%;
+  width: 3rem;
+  margin: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.add {
+  width: 3rem;
+  height: 2.5rem;
+  background-color: rgb(138, 241, 138, 0.85);
+  color: white;
+  border: rgb(255, 255, 255, 0.4) solid 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  margin: 1rem auto;
+}
+
+.del {
+  width: 3rem;
+  height: 2.5rem;
+  background-color: rgb(238, 107, 107);
+  color: white;
+  border: rgb(255, 255, 255, 0.4) solid 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  margin: 0.5rem auto;
+}

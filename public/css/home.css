@@ -1,0 +1,242 @@
+body {
+  background: linear-gradient(to right, #5677ee73, #ee565b94);
+  color: #214c71;
+  /* font-family: "Quantico", sans-serif; */
+  font-size: 16px;
+  /* font-family: "DotGothic16", sans-serif; */
+  font-family: "Press Start 2P", cursive;
+}
+
+p:focus,
+p:active,
+p:target,
+p:hover {
+  cursor: default;
+}
+
+h1:focus,
+h1:active,
+h1:active,
+h1:hover {
+  cursor: default;
+}
+
+/* NAV */
+
+.nav1 {
+  background: linear-gradient(to right, #5677ee73, #ee565b);
+  /* background-color: rgba(255, 255, 255, 0); */
+
+  color: #214c71;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 7rem;
+  width: 100%;
+  position: fixed;
+  padding-bottom: 1.5rem;
+}
+
+#title {
+  font-family: "Press Start 2P", cursive;
+  margin: 0 auto;
+  -webkit-text-stroke: 0.1rem white;
+}
+
+.logo {
+  margin: auto 2rem;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.buttonLogin {
+  background-color: #349bcc;
+  margin: auto 3rem;
+  width: 11rem;
+  height: 3rem;
+  color: rgb(255, 255, 255);
+  font-size: 0.7rem;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+}
+.buttonLogin:hover {
+  background-color: rgb(255, 255, 255);
+  color: #349bcc;
+  transition: 0.2s;
+}
+
+/* SECTION */
+
+section {
+  background-image: url("../images/homeImage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top;
+  background-size: cover;
+  height: 70rem;
+  overflow: hidden;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  padding-top: 5rem;
+}
+.loginBox {
+  height: 30rem;
+  width: 22rem;
+  background-color: white;
+  margin: 10% auto auto auto;
+  border-radius: 1rem;
+  border: #9e9797 solid 0.1rem;
+  border-collapse: collapse;
+  box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem;
+}
+.signinBox {
+  height: 25rem;
+  width: 22rem;
+  background-color: white;
+  margin: 10% auto auto auto;
+  border-radius: 1rem;
+  border: #9e9797 solid 0.1rem;
+  border-collapse: collapse;
+  box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem;
+}
+
+p {
+  margin: 0rem;
+}
+.empezar {
+  color: rgb(255, 255, 255);
+  background-color: #349bcc;
+
+  height: 4.5rem;
+  width: 100%;
+  border-radius: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0%;
+  font-size: 1.1rem;
+  border: #9e9797 solid 0.1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem 2rem;
+}
+
+.contain {
+  width: 100%;
+  padding: 0rem;
+  height: 3rem;
+  display: flex;
+  margin: 1.5rem auto;
+}
+
+input:active {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+
+.user {
+  width: 100%;
+  border: #9e9797 solid;
+  border-width: 0rem 0rem 0.1rem 0rem;
+  font-size: 0.75rem;
+  color: #007b36;
+}
+.email {
+  width: 100%;
+  border: #9e9797 solid;
+  border-width: 0rem 0rem 0.1rem 0rem;
+  font-size: 0.75rem;
+  color: #f8c907;
+}
+.password {
+  width: 100%;
+  border: #9e9797 solid;
+  border-width: 0rem 0rem 0.1rem 0rem;
+  font-size: 0.75rem;
+  color: #f40420;
+}
+.buttonLog {
+  height: 3rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  color: rgb(255, 255, 255);
+  border: #c1c1c1 solid 0.1rem;
+  background-color: #083ba2;
+  margin-top: 1.2rem;
+  transition: 0.2s;
+}
+.buttonLog:hover {
+  color: #083ba2;
+  border: #083ba2 solid 0.1rem;
+  background-color: rgb(255, 255, 255);
+  transition: 0.2s;
+}
+.buttonSign {
+  height: 3rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  color: rgb(255, 255, 255);
+  border: #c1c1c1 solid 0.1rem;
+  background-color: #083ba2;
+  margin-top: 1.2rem;
+  transition: 0.2s;
+}
+
+.buttonSign:hover {
+  color: #083ba2;
+  border: #083ba2 solid 0.1rem;
+  background-color: rgb(255, 255, 255);
+  margin-top: 1.2rem;
+  transition: 0.2s;
+}
+.small {
+  font-size: 0.6rem;
+  margin-top: 0.6rem;
+  text-align: center;
+}
+.crearUser {
+  background-color: rgb(255, 255, 255);
+  color: #349bcc;
+  border-style: none;
+}
+.small > a:visited,
+.small > a:active,
+.small > a:hover {
+  text-decoration: none;
+}
+.user::placeholder {
+  color: #007b35ad;
+}
+.email::placeholder {
+  color: #f8c807ad;
+}
+.password::placeholder {
+  color: #f40420ad;
+}
+/* FOOTER */
+
+.footer1 {
+  height: 0.7rem;
+  background-color: #cecece;
+}
+.footer2 {
+  height: 2rem;
+  width: 100%;
+}
