@@ -17,7 +17,7 @@ class FormHome extends React.Component {
         password: psw,
       }),
     };
-    const url = "http://127.0.0.1:5678/api/users/login";
+    const url = "http://127.0.0.1:1234/api/users/login";
 
     fetch(url, opts)
       .then((response) => {
@@ -39,7 +39,7 @@ class FormHome extends React.Component {
         password: psw,
       }),
     };
-    const url = "http://127.0.0.1:5678/api/users/register";
+    const url = "http://127.0.0.1:1234/api/users/register";
 
     fetch(url, opts)
       .then((response) => {

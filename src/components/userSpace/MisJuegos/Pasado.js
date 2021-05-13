@@ -23,7 +23,7 @@ class Pasado extends React.Component {
       body: JSON.stringify({ time: "past" })
     }
 
-    const url = `http://127.0.0.1:5678/api/gamelist/${nickname}`
+    const url = `http://127.0.0.1:1234/api/gamelist/${nickname}`
     fetch(url, opts).then((response) => {
       return response.json()
     }).then((data) => {
